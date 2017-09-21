@@ -1,0 +1,22 @@
+Source: selfie
+Priority: optional
+Maintainer: Cristian ruiz <cristian-externe.ruiz@edf.fr>
+Build-Depends:
+ debhelper (>= 9),
+ dh-autoreconf,
+ libpapi-dev,
+ libpapi5.3,
+ libyaml-0-2,
+ libyaml-dev,
+ python-dev
+Standards-Version: 3.9.5
+Homepage: https://github.com/cea-hpc/selFIe
+Vcs-Git: https://github.com/cea-hpc/selFIe.git
+
+Package: selfie
+Section: libs
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${shlibs:Depends}, ${misc:Depends}
+Description: Self and Light proFIling Engine - a very light profiling tools for Linux commands and HPC codes 
