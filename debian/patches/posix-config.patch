@@ -1,0 +1,12 @@
+Index: selFIe/etc/selfie_posixio_functions.txt
+===================================================================
+--- selFIe.orig/etc/selfie_posixio_functions.txt
++++ selFIe/etc/selfie_posixio_functions.txt
+@@ -6,7 +6,6 @@ int creat(const char *pathname, mode_t m
+ int fclose(FILE *fp)
+ int fdatasync(int fd)
+ int fflush(FILE *stream)
+-int fgetc(FILE *stream)
+ int fgetpos(FILE *stream, fpos_t *pos)
+ int fseek(FILE *stream, long offset, int whence)
+ int fsetpos(FILE *stream, const fpos_t *pos)
