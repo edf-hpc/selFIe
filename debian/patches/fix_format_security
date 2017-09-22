@@ -1,0 +1,11 @@
+--- a/src/selfie_tools.c
++++ b/src/selfie_tools.c
+@@ -795,7 +795,7 @@
+     {
+       openlog("selfie", LOG_PID | LOG_NDELAY, LOG_USER);
+     }
+-    syslog(LOG_INFO, json_string);
++    syslog(LOG_INFO, "%s", json_string);
+     closelog();
+ 
+     free(json_string);
