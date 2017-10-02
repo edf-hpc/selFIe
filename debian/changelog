@@ -1,3 +1,9 @@
+selfie (0.0.2-1+c9+1) UNRELEASED; urgency=medium
+
+  * Allows to compile with PAPI library installed in system path.
+
+ -- Cristian RUIZ <cristian-externe.ruiz.edf.fr>  Mon, 02 Oct 2017 17:08:51 +0200
+
 selfie (0.0.1-1+c9+1) calibre9; urgency=medium
 
   * Initial release
