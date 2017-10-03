@@ -1,4 +1,4 @@
-selfie (0.0.2-1+c9+1) UNRELEASED; urgency=medium
+selfie (0.0.2-1+c9+1) calibre9; urgency=medium
 
   * Allows to compile with PAPI library installed in system path.
 
