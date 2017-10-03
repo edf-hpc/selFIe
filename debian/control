@@ -1,4 +1,5 @@
 Source: selfie
+Section: science
 Priority: optional
 Maintainer: Cristian ruiz <cristian-externe.ruiz@edf.fr>
 Build-Depends:
@@ -19,4 +20,9 @@ Architecture: any
 Multi-Arch: same
 Depends:
  ${shlibs:Depends}, ${misc:Depends}
-Description: Self and Light proFIling Engine - a very light profiling tools for Linux commands and HPC codes 
+Description: tool to lightly profile Linux commands without compiling
+ selFIe (SElf and Light proFIling Engine) is a tool to lightly profile
+ Linux commands without compiling.
+ .
+ selFIe is a dynamic library which can be given to the LD_PRELOAD
+ environment variable before the execution of the command.
