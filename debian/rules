@@ -21,3 +21,9 @@ get_package_version	 = $(shell dpkg-query -W -f '$${Version}' $1)
 override_dh_auto_configure:
 	dh_auto_configure -- --with-posixio --with-mpi --with-papi
 
+override_dh_install:
+	dh_install
+
+	# Replace and install module files
+	mkdir -p debian/opt/modulefiles/
+	cp -a debian/modules/*	debian/opt/modulefiles/
