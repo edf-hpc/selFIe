@@ -25,5 +25,5 @@ override_dh_install:
 	dh_install
 
 	# Replace and install module files
-	mkdir -p debian/opt/modulefiles/
-	cp -a debian/modules/*	debian/opt/modulefiles/
+	mkdir -p debian/selfie/opt/modulefiles/
+	cp -a debian/modules/*	debian/selfie/opt/modulefiles/
