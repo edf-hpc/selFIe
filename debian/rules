@@ -9,6 +9,7 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=-pie
 DPKG_EXPORT_BUILDFLAGS	 = 1
 include /usr/share/dpkg/buildflags.mk
 
+INSTALLDIR=selfie
 
 DEB_HOST_MULTIARCH	?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
@@ -19,11 +20,11 @@ get_package_version	 = $(shell dpkg-query -W -f '$${Version}' $1)
 
 .PHONY: override_dh_auto_configure
 override_dh_auto_configure:
-	dh_auto_configure -- --with-posixio --with-mpi --with-papi
+	dh_auto_configure -- --prefix=/opt/$(INSTALLDIR) --with-posixio --with-mpi --with-papi
 
 override_dh_install:
 	dh_install
 
 	# Replace and install module files
-	mkdir -p debian/selfie/opt/modulefiles/
-	cp -a debian/modules/*	debian/selfie/opt/modulefiles/
+	mkdir -p debian/$(INSTALLDIR)/opt/modulefiles/
+	cp -a debian/modules/*	debian/$(INSTALLDIR)/opt/modulefiles/
