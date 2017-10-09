@@ -1,0 +1,279 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Define to 1 if you have the `atof' function. */
+#undef HAVE_ATOF
+
+/* Define to 1 if you have the `atoi' function. */
+#undef HAVE_ATOI
+
+/* Define to 1 if you have the `closelog' function. */
+#undef HAVE_CLOSELOG
+
+/* Enable debug mode */
+#undef HAVE_DEBUG
+
+/* Enable default plugin */
+#undef HAVE_DEFAULT
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Enable dummy plugin */
+#undef HAVE_DUMMY
+
+/* Define to 1 if you have the <errno.h> header file. */
+#undef HAVE_ERRNO_H
+
+/* Define to 1 if you have the `fclose' function. */
+#undef HAVE_FCLOSE
+
+/* Define to 1 if you have the <fcntl.h> header file. */
+#undef HAVE_FCNTL_H
+
+/* Define to 1 if you have the `fopen' function. */
+#undef HAVE_FOPEN
+
+/* Define to 1 if you have the `fprintf' function. */
+#undef HAVE_FPRINTF
+
+/* Define to 1 if you have the `getenv' function. */
+#undef HAVE_GETENV
+
+/* Define to 1 if you have the `getopt' function. */
+#undef HAVE_GETOPT
+
+/* Define to 1 if you have the `gettimeofday' function. */
+#undef HAVE_GETTIMEOFDAY
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the `dl' library (-ldl). */
+#undef HAVE_LIBDL
+
+/* Define to 1 if you have the <locale.h> header file. */
+#undef HAVE_LOCALE_H
+
+/* Define to 1 if your system has a GNU libc compatible `malloc' function, and
+   to 0 otherwise. */
+#undef HAVE_MALLOC
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Enable MPI profiling */
+#undef HAVE_MPI
+
+/* Define to 1 if you have the `openlog' function. */
+#undef HAVE_OPENLOG
+
+/* Enable PAPI plugin */
+#undef HAVE_PAPI
+
+/* Define to 1 if you have the `PAPI_add_event' function. */
+#undef HAVE_PAPI_ADD_EVENT
+
+/* Define to 1 if you have the `PAPI_cleanup_eventset' function. */
+#undef HAVE_PAPI_CLEANUP_EVENTSET
+
+/* Define to 1 if you have the `PAPI_create_eventset' function. */
+#undef HAVE_PAPI_CREATE_EVENTSET
+
+/* Define to 1 if you have the `PAPI_destroy_eventset' function. */
+#undef HAVE_PAPI_DESTROY_EVENTSET
+
+/* Define to 1 if you have the `PAPI_event_name_to_code' function. */
+#undef HAVE_PAPI_EVENT_NAME_TO_CODE
+
+/* Define to 1 if you have the `PAPI_library_init' function. */
+#undef HAVE_PAPI_LIBRARY_INIT
+
+/* Define to 1 if you have the `PAPI_multiplex_init' function. */
+#undef HAVE_PAPI_MULTIPLEX_INIT
+
+/* Define to 1 if you have the `PAPI_start' function. */
+#undef HAVE_PAPI_START
+
+/* Define to 1 if you have the `PAPI_stop' function. */
+#undef HAVE_PAPI_STOP
+
+/* Enable POSIXIO profiling */
+#undef HAVE_POSIXIO
+
+/* Define to 1 if you have the `printf' function. */
+#undef HAVE_PRINTF
+
+/* Define to 1 if you have the `readlink' function. */
+#undef HAVE_READLINK
+
+/* Define to 1 if your system has a GNU libc compatible `realloc' function,
+   and to 0 otherwise. */
+#undef HAVE_REALLOC
+
+/* Define to 1 if you have the `regcomp' function. */
+#undef HAVE_REGCOMP
+
+/* Define to 1 if you have the `regexec' function. */
+#undef HAVE_REGEXEC
+
+/* Define to 1 if you have the <regex.h> header file. */
+#undef HAVE_REGEX_H
+
+/* Define to 1 if you have the `regfree' function. */
+#undef HAVE_REGFREE
+
+/* Define to 1 if you have the `setlocale' function. */
+#undef HAVE_SETLOCALE
+
+/* Define to 1 if you have the `snprintf' function. */
+#undef HAVE_SNPRINTF
+
+/* Define to 1 if you have the `sprintf' function. */
+#undef HAVE_SPRINTF
+
+/* Define to 1 if you have the `stat' function. */
+#undef HAVE_STAT
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdio.h> header file. */
+#undef HAVE_STDIO_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the `strcat' function. */
+#undef HAVE_STRCAT
+
+/* Define to 1 if you have the `strcpy' function. */
+#undef HAVE_STRCPY
+
+/* Define to 1 if you have the `strdup' function. */
+#undef HAVE_STRDUP
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the `strlen' function. */
+#undef HAVE_STRLEN
+
+/* Define to 1 if you have the `strncat' function. */
+#undef HAVE_STRNCAT
+
+/* Define to 1 if you have the `strncpy' function. */
+#undef HAVE_STRNCPY
+
+/* Define to 1 if you have the `syslog' function. */
+#undef HAVE_SYSLOG
+
+/* Define to 1 if you have the <syslog.h> header file. */
+#undef HAVE_SYSLOG_H
+
+/* Define to 1 if you have the <sys/resource.h> header file. */
+#undef HAVE_SYS_RESOURCE_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/time.h> header file. */
+#undef HAVE_SYS_TIME_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if you have the `yaml_event_delete' function. */
+#undef HAVE_YAML_EVENT_DELETE
+
+/* Define to 1 if you have the <yaml.h> header file. */
+#undef HAVE_YAML_H
+
+/* Define to 1 if you have the `yaml_parser_delete' function. */
+#undef HAVE_YAML_PARSER_DELETE
+
+/* Define to 1 if you have the `yaml_parser_initialize' function. */
+#undef HAVE_YAML_PARSER_INITIALIZE
+
+/* Define to 1 if you have the `yaml_parser_parse' function. */
+#undef HAVE_YAML_PARSER_PARSE
+
+/* Define to 1 if you have the `yaml_parser_set_input_file' function. */
+#undef HAVE_YAML_PARSER_SET_INPUT_FILE
+
+/* Define to 1 if the system has the type `_Bool'. */
+#undef HAVE__BOOL
+
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
+#undef LT_OBJDIR
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Major version */
+#undef SELFIE_MAJOR_VERSION
+
+/* Minor version */
+#undef SELFIE_MINOR_VERSION
+
+/* Name of PAPI library */
+#undef SELFIE_PAPILIB
+
+/* Enable directory where to find libpapi.so */
+#undef SELFIE_PAPILIBPATH
+
+/* Revision version */
+#undef SELFIE_REVISION_VERSION
+
+/* Version */
+#undef SELFIE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Version number of package */
+#undef VERSION
+
+/* Enable MPI built-in hook */
+#undef __SELFIE_MPI_BUILTIN__
+
+/* Enable POSIXIO built-in hook */
+#undef __SELFIE_POSIXIO_BUILTIN__
+
+/* Enable POSIXIO standard hook */
+#undef __SELFIE_POSIXIO_HOOK__
+
+/* Define to rpl_malloc if the replacement function should be used. */
+#undef malloc
+
+/* Define to rpl_realloc if the replacement function should be used. */
+#undef realloc
+
+/* Define to `unsigned int' if <sys/types.h> does not define. */
+#undef size_t
+
+/* Define to `int' if <sys/types.h> does not define. */
+#undef ssize_t
