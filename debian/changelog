@@ -1,3 +1,9 @@
+selfie (1.0.0+ce813b9-1+c9+1) UNRELEASED; urgency=medium
+
+  * Import latest upstream code, 1.0.0+ce813b9.
+
+ -- Mehdi Dogguy <mehdi.dogguy@edf.fr>  Tue, 10 Oct 2017 11:57:43 +0200
+
 selfie (0.0.2-1+c9+1) calibre9; urgency=medium
 
   * Allows to compile with PAPI library installed in system path.
