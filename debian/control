@@ -6,7 +6,6 @@ Build-Depends:
  debhelper (>= 9),
  dh-autoreconf,
  libpapi-dev,
- libpapi5.3,
  libyaml-0-2,
  libyaml-dev,
  python-dev
