@@ -12,6 +12,7 @@ Build-Depends:
 Standards-Version: 3.9.5
 Homepage: https://github.com/cea-hpc/selFIe
 Vcs-Git: https://github.com/cea-hpc/selFIe.git
+XC-Restricted: no
 
 Package: selfie
 Section: libs

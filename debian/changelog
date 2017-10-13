@@ -1,3 +1,9 @@
+selfie (1.0.0+ce813b9-1+c9+2) UNRELEASED; urgency=medium
+
+  * Add XC-Restricted: no
+
+ -- Mehdi Dogguy <mehdi.dogguy@edf.fr>  Fri, 13 Oct 2017 16:56:30 +0200
+
 selfie (1.0.0+ce813b9-1+c9+1) calibre9; urgency=medium
 
   * Import latest upstream code, 1.0.0+ce813b9.
