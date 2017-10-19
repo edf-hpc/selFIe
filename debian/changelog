@@ -1,6 +1,10 @@
 selfie (1.0.0+ce813b9-1+c9+2) UNRELEASED; urgency=medium
 
   * Add XC-Restricted: no
+  * Minor changes in debian/control:
+   - Bump Standards-Version to 3.9.6
+   - Add myself as uploader
+   - Add dpkg-dev in build-deps
 
  -- Mehdi Dogguy <mehdi.dogguy@edf.fr>  Fri, 13 Oct 2017 16:56:30 +0200
 
